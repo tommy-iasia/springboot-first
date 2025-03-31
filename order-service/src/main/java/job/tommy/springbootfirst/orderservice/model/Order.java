@@ -14,10 +14,10 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "orders")
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
